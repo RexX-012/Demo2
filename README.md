@@ -16,3 +16,23 @@
 1. `git checkout <branch-name>` - Switches to the branch you want to merge into.
 2. `git merge <branch-name>` - Merges the branch into the current branch.
 3. `git push` - Pushes the changes to the remote repository.
+
+## How to pull a branch
+
+1. `git checkout <branch-name>` - Switches to the branch you want to pull into.
+2. `git pull <branch-name>` - Pulls the changes from the remote repository.
+
+## How to delete a branch
+
+1. `git branch -d <branch-name>` - Deletes the local branch.
+2. `git push origin --delete <branch-name>` - Deletes the remote branch.
+
+## How to switch between branches
+
+1. `git checkout <branch-name>` - Switches to the branch you want to switch to.
+2. `git checkout <branch-name>` - Switches to the branch you want to switch to.
+
+## How to view the status of the files
+
+1. `git status` - Shows the status of the files.
+
