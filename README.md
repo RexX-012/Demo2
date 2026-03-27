@@ -36,3 +36,19 @@
 
 1. `git status` - Shows the status of the files.
 
+## How to view the log of the files
+
+1. `git log` - Shows the log of the files.
+2. `git log --oneline` - Shows the log of the files in a single line.
+3. `git log --graph` - Shows the log of the files in a graph.
+4. `git log --graph --oneline --decorate --all` - Shows the log of the files in a graph in a single line.
+5. `git log --graph --oneline --decorate --all --color` - Shows the log of the files in a graph in a single line with color.
+6. `git log --graph --oneline --decorate --all --color --pretty=format:"%h - %an, %ar : %s"` - Shows the log of the files in a graph in a single line with color and pretty format.
+7. `git log --graph --oneline --decorate --all --color --pretty=format:"%h - %an, %ar : %s" --author="<author-name>"` - Shows the log of the files in a graph in a single line with color and pretty format and author name.
+8. `git log --graph --oneline --decorate --all --color --pretty=format:"%h - %an, %ar : %s" --author="<author-name>" --since="<date>"` - Shows the log of the files in a graph in a single line with color and pretty format and author name and since date.
+9. `git log --graph --oneline --decorate --all --color --pretty=format:"%h - %an, %ar : %s" --author="<author-name>" --since="<date>" --until="<date>"` - Shows the log of the files in a graph in a single line with color and pretty format and author name and since date and until date.
+10. `git log --graph --oneline --decorate --all --color --pretty=format:"%h - %an, %ar : %s" --author="<author-name>" --since="<date>" --until="<date>" --grep="<pattern>"` - Shows the log of the files in a graph in a single line with color and pretty format and author name and since date and until date and grep pattern.
+11. `git log --graph --oneline --decorate --all --color --pretty=format:"%h - %an, %ar : %s" --author="<author-name>" --since="<date>" --until="<date>" --grep="<pattern>" --branch="<branch-name>"` - Shows the log of the files in a graph in a single line with color and pretty format and author name and since date and until date and grep pattern and branch name.
+12. `git log --graph --oneline --decorate --all --color --pretty=format:"%h - %an, %ar : %s" --author="<author-name>" --since="<date>" --until="<date>" --grep="<pattern>" --branch="<branch-name>" --merges` - Shows the log of the files in a graph in a single line with color and pretty format and author name and since date and until date and grep pattern and branch name and merges.
+13. `git log --graph --oneline --decorate --all --color --pretty=format:"%h - %an, %ar : %s" --author="<author-name>" --since="<date>" --until="<date>" --grep="<pattern>" --branch="<branch-name>" --no-merges` - Shows the log of the files in a graph in a single line with color and pretty format and author name and since date and until date and grep pattern and branch name and no merges.
+14. `git log --graph --oneline --decorate --all --color --pretty=format:"%h - %an, %ar : %s" --author="<author-name>" --since="<date>" --until="<date>" --grep="<pattern>" --branch="<branch-name>" --no-merges --no-walk` - Shows the log of the files in a graph in a single line with color and pretty format and author name and since date and until date and grep pattern and branch name and no merges and no walk.
