@@ -35,6 +35,12 @@
 ## How to view the status of the files
 
 1. `git status` - Shows the status of the files.
+2. `git diff` - Shows the difference between the files.
+3. `git diff --staged` - Shows the difference between the staged files.
+4. `git diff --cached` - Shows the difference between the cached files.
+5. `git diff --staged --cached` - Shows the difference between the staged and cached files.
+
+
 
 ## How to view the log of the files
 
